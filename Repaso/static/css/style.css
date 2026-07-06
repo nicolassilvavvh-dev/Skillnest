@@ -1,0 +1,113 @@
+* {
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+   font-family: Arial, sans-serif;
+}
+
+.body{
+   background-color: rgb(197, 197, 197);
+}
+
+.barra-navegación {
+   display: flex;
+   justify-content: space-between;
+   background-color: white;
+   align-items: center;
+   padding: 10px 30px;
+   color: white;
+   margin-bottom: 20px;
+}
+
+.logotipo {
+   height: 100px;
+   width: 300px;
+}
+
+.nav {
+   display: flex;
+   align-items: center;
+   gap: 20px;
+}
+
+.nav2 {
+   margin-top: 20px;
+   display: flex;
+   align-items:start;
+   flex-direction: column;
+   gap: 20px;
+}
+
+.nav a {
+   text-decoration: none;
+   font-weight: 100px;
+}
+
+.azul{
+   color: rgba(17, 0, 255, 0.877);
+}
+
+.redondo{
+   display: flex;
+   background-color: gray;
+   color: rgba(252, 214, 2, 0.925);
+   width: 45px;
+   height: 45px;
+   border-radius: 50%;
+   margin-left: 5px;
+   justify-content: center;
+   align-items: center;
+}
+
+.salir {
+   color: white;
+   background-color: blue;
+   width: 100px;
+   height: 50px;
+   border-radius: 30px;
+   display: flex;         
+   justify-content: center; 
+   align-items: center;     
+   outline: none;
+}
+
+.boton{
+   display: flex;
+   position: relative;
+   background-color: white;
+   border: none;
+   outline: none;
+   cursor: pointer;
+}
+
+.main{
+   margin-right: 30px;
+   margin-left: 30px;
+}
+.contenedor{
+   display: flex;
+   margin-bottom: 20px;
+}
+
+.redondo2{
+   display: flex;
+   background-color: rgb(3, 112, 255);
+   color: white;
+   width: 85px;
+   height: 85px;
+   border-radius: 50%;
+   margin-left: 5px;
+   justify-content: center;
+   align-items: center;
+   text-decoration: none;
+}
+
+.text{
+   display: flex;
+   align-items: center;
+   margin-left: 20px;
+}
+.negro{
+   color: black;
+   text-decoration: none;
+}
