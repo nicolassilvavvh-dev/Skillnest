@@ -1,42 +1,66 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author">
+    <meta name="author" content="Nicolas silva">
     <title>Skillnest</title>
     <link rel="stylesheet" href="static/css/style.css">
 </head>
+
 <body>
     <header class="barra-navegación">
         <div>
             <img src="static/images/LOGO-CORREO_x-1536x552.png" class="logotipo" alt="1">
         </div>
         <div class="nav">
-            <a href="#" class="azul">Escritorio</a>
-            <a href="#" class="azul">Contacto</a>
+            <a href="#" class="azul activo2">Escritorio</a>
+            <a href="#" class="azul hover3">Contacto</a>
             <button class="boton">
                 <a href="#" class="redondo">☀</a>
             </button>
             <button class="boton">
                 <a href="#" class="salir">Salir</a>
             </button>
-            
         </div>
     </header>
-    <main class="main">
-        <div class="contenedor">
-            <a href="#" class="redondo2">NS</a>
-            <h1 class="text"> Nicolas Silva</h1>
+    <div class="perfil-superior">
+        <div class="usuario-info">
+            <div class="redondo2">NS</div>
+            <h1 class="text">Nicolas Silva</h1>
         </div>
-        <hr>
-        <div class="nav2">
-            <a href="#" class="negro">Escritorio</a>
-            <a href="#" class="negro">Mi perfil</a>
-            <a href="#" class="negro">Cursos inscritos</a>
-            <a href="#" class="negro">Mis intentos de cuestionarios</a>
-            <a href="#" class="negro"> Pregrunta y respuesta</a>
+    </div>
+    <hr class="linea-separadora">
+    <main class="main-layout">
+        <div class="columna-izquierda">
+            <div class="nav2">
+                <a href="#" class="negro hover">Escritorio</a>
+                <a href="#" class="negro hover">Mi perfil</a>
+                <a href="#" class="negro hover">Cursos inscritos</a>
+                <a href="#" class="negro hover">Mis intentos de cuestionarios</a>
+                <a href="#" class="negro hover">Pregunta y respuesta</a>
+            </div>
+            <hr>
+            <div class="nav2">
+                <p class="color top">Instructor</p>
+                <a href="#" class="negro hover activo">Mis cursos</a>
+                <a href="#" class="negro hover">Anuncios</a>
+                <a href="#" class="negro hover">Intentos del cuestionario</a>
+                <a href="#" class="negro hover">Tareas</a>
+                <a href="#" class="negro hover">Analytics</a>
+            </div>
+        </div>
+        <div class="columna-derecha">
+            <h2 class="titulo-seccion">Mis cursos</h2>
+            <div class="pestanas">
+                <span class="pestana activa">Publicado</span>
+                <span class="pestana hover2">Pendiente</span>
+                <span class="pestana hover2">Borrador</span>
+                <span class="pestana hover2">Programar</span>
+            </div>
         </div>
     </main>
 </body>
+
 </html>
