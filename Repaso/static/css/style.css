@@ -123,7 +123,6 @@
 }
 
 .color {
-   color: rgba(128, 128, 128, 0.74);
    width: 300px;
    height: 40px;
 }
@@ -197,7 +196,6 @@
    align-items: center;
    padding: 10px 15px;
    text-decoration: none;
-   color: #4a5568;
    border-radius: 6px;
    margin-bottom: 4px;
    font-size: 14px;
